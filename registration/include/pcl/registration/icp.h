@@ -242,6 +242,7 @@ namespace pcl
         return (use_reciprocal_correspondence_);
       }
 
+	  inline int getNumberofIteration(){ return nr_iterations_; }
     protected:
 
       /** \brief Apply a rigid transform to a given dataset. Here we check whether whether
